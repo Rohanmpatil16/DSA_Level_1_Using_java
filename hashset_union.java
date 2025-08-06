@@ -13,7 +13,21 @@ public class hashset_union {
         {
             ab.add(b[j]);
         }
+        System.out.print("The elements in the a array are: ");
+        for(int ii:a)
+        {
+            System.out.print(ii + " ");
+        }
+        System.out.println();
+        System.out.print("The elements in the b array are: ");
+        for(int jj:b)
+        {
+            System.out.print(jj + " ");
+        }
+        System.out.println();
+        System.out.println("The elements in the union are: " + ab);
         return ab.size();
+        
 
     }
     public static void main(String args[])
